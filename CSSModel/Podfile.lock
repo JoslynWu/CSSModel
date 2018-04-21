@@ -1,0 +1,16 @@
+PODS:
+  - CSSPrettyPrinted (0.1.0)
+
+DEPENDENCIES:
+  - CSSPrettyPrinted (~> 0.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CSSPrettyPrinted
+
+SPEC CHECKSUMS:
+  CSSPrettyPrinted: 3c700dea4f7f971634096e902ff69afd0753ea42
+
+PODFILE CHECKSUM: 0541e8995851198c823ee371aaa4364a2e9afb07
+
+COCOAPODS: 1.5.0.beta.1
