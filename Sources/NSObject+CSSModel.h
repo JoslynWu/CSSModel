@@ -8,7 +8,6 @@
 //  一个简约的转Model工具
 // https://github.com/JoslynWu/CSSModel
 // - 默认支持解归档（NSKeyedArchiver/NSKeyedUnarchiver）
-// - 默认支持copy
 
 #import <Foundation/Foundation.h>
 
@@ -20,7 +19,7 @@
 @end
 
 NS_ASSUME_NONNULL_BEGIN
-@interface NSObject (CSSModel)<NSCopying, NSSecureCoding>
+@interface NSObject (CSSModel)<NSSecureCoding>
 
 /**
  深度clone (deep copy)

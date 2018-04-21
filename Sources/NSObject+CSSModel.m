@@ -296,17 +296,4 @@ static NSString *const CSSModelPropertySubClassKey = @"subclass";
     }
 }
 
-#pragma mark  -  NSCoding
-/*
- As of version 2.1, NSCopying is no longer implemented automatically, as this caused some compatibility problems with Core Data NSManagedObjects.
- https://github.com/nicklockwood/AutoCoding
- */
-- (id)copyWithZone:(id)zone {
-    id copy = [[[self class] alloc] init];
-    for (NSString *key in self.css_instanceCodableProperties) {
-        [copy setValue:[self valueForKey:key] forKey:key];
-    }
-    return copy;
-}
-
 @end
