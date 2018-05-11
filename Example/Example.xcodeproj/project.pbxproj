@@ -13,7 +13,7 @@
 		9E4D377820A48FFC00483727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4D377720A48FFC00483727 /* Assets.xcassets */; };
 		9E4D377B20A48FFC00483727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4D377920A48FFC00483727 /* LaunchScreen.storyboard */; };
 		9E4D377E20A48FFC00483727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D377D20A48FFC00483727 /* main.m */; };
-		9E4D379620A4900E00483727 /* NSObject+CSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D379320A4900E00483727 /* NSObject+CSSModel.m */; };
+		9E4D379620A4900E00483727 /* CSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D379320A4900E00483727 /* CSSModel.m */; };
 		9E4D379A20A4901B00483727 /* CSSModel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9E4D379720A4901B00483727 /* CSSModel.podspec */; };
 		9E4D379B20A4901B00483727 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E4D379820A4901B00483727 /* README.md */; };
 		9E4D379C20A4901B00483727 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9E4D379920A4901B00483727 /* LICENSE */; };
@@ -48,8 +48,8 @@
 		9E4D377D20A48FFC00483727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E4D378320A48FFC00483727 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4D378920A48FFC00483727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E4D379320A4900E00483727 /* NSObject+CSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CSSModel.m"; sourceTree = "<group>"; };
-		9E4D379520A4900E00483727 /* NSObject+CSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CSSModel.h"; sourceTree = "<group>"; };
+		9E4D379320A4900E00483727 /* CSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSModel.m; sourceTree = "<group>"; };
+		9E4D379520A4900E00483727 /* CSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSModel.h; sourceTree = "<group>"; };
 		9E4D379720A4901B00483727 /* CSSModel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSSModel.podspec; path = ../CSSModel.podspec; sourceTree = "<group>"; };
 		9E4D379820A4901B00483727 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9E4D379920A4901B00483727 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 		9E4D379220A4900E00483727 /* CSSModel */ = {
 			isa = PBXGroup;
 			children = (
-				9E4D379520A4900E00483727 /* NSObject+CSSModel.h */,
-				9E4D379320A4900E00483727 /* NSObject+CSSModel.m */,
+				9E4D379520A4900E00483727 /* CSSModel.h */,
+				9E4D379320A4900E00483727 /* CSSModel.m */,
 			);
 			name = CSSModel;
 			path = ../CSSModel;
@@ -258,7 +258,7 @@
 				9E4D377320A48FFB00483727 /* ViewController.m in Sources */,
 				9E4D377E20A48FFC00483727 /* main.m in Sources */,
 				9E4D377020A48FFB00483727 /* AppDelegate.m in Sources */,
-				9E4D379620A4900E00483727 /* NSObject+CSSModel.m in Sources */,
+				9E4D379620A4900E00483727 /* CSSModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

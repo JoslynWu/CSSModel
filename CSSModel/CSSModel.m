@@ -6,7 +6,7 @@
 //  Copyright © 2018年 joslyn. All rights reserved.
 //
 
-#import "NSObject+CSSModel.h"
+#import "CSSModel.h"
 #import <objc/runtime.h>
 
 static NSString *const CSSModelPropertyClassKey = @"class";

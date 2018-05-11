@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+CSSModel.h"
+#import "CSSModel.h"
 
 CSSModelProtocol(CSSSimpleSubModel)
 @interface CSSSimpleSubModel : NSObject

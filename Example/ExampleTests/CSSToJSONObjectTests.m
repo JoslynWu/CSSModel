@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSObject+CSSModel.h"
+#import "CSSModel.h"
 #import "CSSSimpleModel.h"
 #import <objc/runtime.h>
 

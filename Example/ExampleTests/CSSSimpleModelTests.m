@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSObject+CSSModel.h"
+#import "CSSModel.h"
 #import "CSSSimpleModel.h"
 
 @interface CSSModelTests : XCTestCase

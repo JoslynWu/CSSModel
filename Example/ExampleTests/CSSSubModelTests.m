@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSObject+CSSModel.h"
+#import "CSSModel.h"
 
 @interface CSSubPersonModel : NSObject
 @property (nonatomic, copy) NSString *name;

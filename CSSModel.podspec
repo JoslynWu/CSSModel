@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CSSModel"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A simple data to model framework. \n 一个简约的转Model工具。"
   s.license      = { :type => 'MIT License', :file => 'LICENSE' }
   s.authors      = { 'Joslyn' => 'cs_joslyn@foxmail.com' }
